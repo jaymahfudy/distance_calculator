@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisActivity">
+    <LinearLayout
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.design.widget.TextInputEditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/input_name"
+            android:inputType="textPersonName"
+            android:imeOptions="actionNext"
+            android:hint="@string/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/input_email"
+            android:inputType="textEmailAddress"
+            android:imeOptions="actionNext"
+            android:hint="@string/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/input_password"
+            android:inputType="textPassword"
+            android:imeOptions="actionNext"
+            android:hint="@string/kata_sandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/input_conf_password"
+            android:inputType="textPassword"
+            android:imeOptions="actionNext"
+            android:hint="@string/konfirmasi_sandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/input_address"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:hint="@string/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/input_sim_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nomor_sim"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/input_ktp_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nomor_ktp"
+            android:imeOptions="actionNext"
+            android:inputType="number" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/input_nopol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nomor_polisi"
+            android:imeOptions="actionNext"
+            android:inputType="textCapCharacters" />
+
+        <Spinner
+            android:layout_marginTop="10dp"
+            android:id="@+id/spinner_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:background="@drawable/rounded_btn"
+            android:id="@+id/btn_daftar"
+            android:textColor="@color/colorWhite"
+            android:text="@string/daftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+        </android.support.v7.widget.AppCompatButton>
+        <TextView
+            android:id="@+id/link_login"
+            android:text="@string/sudah_punya_akun"
+            android:textColor="#8e8e8e"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_gravity="center_horizontal|bottom"/>
+    </LinearLayout>
+
+</ScrollView>

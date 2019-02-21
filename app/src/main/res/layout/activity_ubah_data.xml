@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UbahDataActivity">
+    <LinearLayout
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_edit_email"
+                android:hint="@string/email"
+                android:maxLength="35"
+                android:inputType="textEmailAddress"/>
+
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_edit_name"
+                android:hint="@string/nama"
+                android:maxLength="35"
+                android:inputType="textPersonName" />
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_edit_address"
+                android:maxLength="100"
+                android:inputType="textPostalAddress"
+                android:hint="@string/alamat"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_edit_phone_1"
+                android:inputType="phone"
+                android:hint="@string/nomor_telepon_1"
+                android:maxLength="13"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_edit_phone_2"
+                android:inputType="phone"
+                android:hint="@string/nomor_telepon_2"
+                android:maxLength="13"/>
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_edit_no_ktp"
+                android:maxLength="100"
+                android:hint="@string/nomor_ktp"
+                android:inputType="number" />
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_edit_no_sim"
+                android:maxLength="100"
+                android:hint="@string/nomor_sim"
+                android:inputType="number" />
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_edit_nopol"
+                android:maxLength="100"
+                android:hint="@string/nomor_polisi"
+                android:inputType="text" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/btn_edit_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:background="@drawable/rounded_btn"
+            android:textColor="@color/colorWhite"
+            android:text="@string/ubah_data"/>
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_marginTop="10dp"
+            android:hint="@string/nama_file_ktp"
+            android:enabled="false"
+            android:id="@+id/input_doc_ktp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_weight="1"
+                android:id="@+id/btn_choose_ktp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:textColor="@color/colorWhite"
+                android:text="@string/pilih"
+                android:layout_marginEnd="3dp"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_weight="1"
+                android:id="@+id/btn_upload_ktp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:textColor="@color/colorWhite"
+                android:text="@string/unggah"
+                android:layout_marginStart="3dp"/>
+
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_marginTop="10dp"
+            android:hint="@string/nama_file_sim"
+            android:enabled="false"
+            android:id="@+id/input_doc_sim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_weight="1"
+                android:id="@+id/btn_choose_sim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:textColor="@color/colorWhite"
+                android:text="@string/pilih"
+                android:layout_marginEnd="3dp"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_weight="1"
+                android:id="@+id/btn_upload_sim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:textColor="@color/colorWhite"
+                android:text="@string/unggah"
+                android:layout_marginStart="3dp"/>
+
+        </LinearLayout>
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_marginTop="10dp"
+            android:hint="@string/nama_file_stnk"
+            android:enabled="false"
+            android:id="@+id/input_doc_stnk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_weight="1"
+                android:id="@+id/btn_choose_stnk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:textColor="@color/colorWhite"
+                android:text="@string/pilih"
+                android:layout_marginEnd="3dp"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_weight="1"
+                android:id="@+id/btn_upload_stnk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_btn"
+                android:textColor="@color/colorWhite"
+                android:text="@string/unggah"
+                android:layout_marginStart="3dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

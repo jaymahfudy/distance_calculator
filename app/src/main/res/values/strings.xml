@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">IPO Driver</string>
+    <string name="masuk">Masuk</string>
+    <string name="kata_sandi">Kata Sandi</string>
+    <string name="daftar">Daftar</string>
+    <string name="label_email">Email :</string>
+    <string name="label_nama">Nama :</string>
+    <string name="label_alamat">Alamat :</string>
+    <string name="label_telepon_1">Nomor Telepon 1 :</string>
+    <string name="label_telepon_2">Nomor Telepon 2 :</string>
+    <string name="label_nomor_ktp">Nomor KTP :</string>
+    <string name="label_nomor_sim">Nomor SIM :</string>
+    <string name="label_nomor_polisi">Nomor Polisi :</string>
+    <string name="email">Email</string>
+    <string name="ubah_sandi">Ubah Sandi</string>
+    <string name="sandi_lama">Kata Sandi Lama</string>
+    <string name="sandi_baru">Kata Sandi Baru</string>
+    <string name="konfirmasi_sandi">Input Ulang Kata Sandi</string>
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="nomor_telepon_1">Nomor Telepon 1</string>
+    <string name="nomor_telepon_2">Nomor Telepon 2</string>
+    <string name="nomor_ktp">Nomor KTP</string>
+    <string name="nomor_sim">Nomor SIM</string>
+    <string name="nomor_polisi">Nomor Polisi</string>
+    <string name="ubah_data">Ubah Data</string>
+    <string name="nama_file_ktp">Nama Dokumen KTP</string>
+    <string name="nama_file_sim">Nama Dokumen SIM</string>
+    <string name="nama_file_stnk">Nama Dokumen STNK</string>
+    <string name="pilih">Pilih</string>
+    <string name="unggah">Unggah</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="profil">Profil</string>
+    <string name="keluar">Keluar</string>
+    <string name="jarak_tempuh">Jarak : 0 Km</string>
+    <string name="kecepatan">Kecepatan</string>
+    <string name="waktu">Waktu :</string>
+    <string name="mulai">Mulai</string>
+    <string name="jeda">Jeda</string>
+    <string name="berhenti">Berhenti</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="id_booking">Masukkan kode booking disini.</string>
+    <string name="masukkan_id_job">Masukkan ID Job :</string>
+    <string name="mulai_job">Mulai Job</string>
+    <string name="logo">Logo</string>
+    <string-array name="gender_array">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string name="launch_activity">Buka</string>
+    <string name="location_unknown">Lokasi tidak diketahui</string>
+    <string name="label_pembaruan_lokasi">Pembaruan lokasi</string>
+
+    <string name="dasar_izin">Izin dibutuhkan untuk menjalankan fungsi utama aplikasi.</string>
+    <string name="izin_ditolak">Izin ditolak. tetapi dibutuhkan untuk menjalankan fungsi utama.</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="ok">OK</string>
+    <string name="meminta_pembaruan_lokasi">Request location updates</string>
+    <string name="hentikan">Berhenti</string>
+    <string name="lokasi_diperbarui">Diperbarui pada : %1$s</string>
+    <string name="dot">.......</string>
+    <string name="ubah_id_job">Ubah Id Job</string>
+
+    <string name="activity_in_vehicle">In Vehicle</string>
+    <string name="activity_on_bicycle">On Bicycle</string>
+    <string name="activity_on_foot">On Foot</string>
+    <string name="activity_running">Running</string>
+    <string name="activity_still">Still</string>
+    <string name="activity_tilting">Tilting</string>
+    <string name="activity_walking">walking</string>
+    <string name="activity_unknown">Unknown</string>
+</resources>
